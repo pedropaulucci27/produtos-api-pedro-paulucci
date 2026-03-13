@@ -18,7 +18,25 @@ function buscarPorId(req, res) {
 }
 
 function criar(req, res) {
-  // TODO
+  const { nome, descricao, preco, categoria, estoque } = req.body;
+
+  if (!nome || !descricao || preco === undefined || !categoria || estoque === undefined) {
+    return res.status(400).json({ erro: "Campos obrigatórios não informados" });
+  }
+
+  const novoProduto = {
+    id: nextId++,
+    nome,
+    descricao,
+    preco,
+    categoria,
+    estoque,
+    ativo: true
+  };
+
+  produtos.push(novoProduto);
+
+  return res.status(201).json(novoProduto);
 }
 
 function atualizar(req, res) {
