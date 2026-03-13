@@ -14,6 +14,8 @@ npm install
 2. Rodar o projeto
 npm run dev
 
+3. API será iniciada em: http://localhost:3000
+
 
 ## Endpoints 
 
