@@ -1,12 +1,12 @@
 {
-  "name": "produtos-api-cristiano-neto",
+  "name": "produtos-api-pedro-paulucci",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nome: Pedro Paulucci de Noronha\r matrícula: 202501246982",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
-    "dev" : "nodemon src/app.js"
+    "dev": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "Pedro Paulucci",
@@ -17,5 +17,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedropaulucci27/produtos-api-pedro-paulucci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedropaulucci27/produtos-api-pedro-paulucci/issues"
+  },
+  "homepage": "https://github.com/pedropaulucci27/produtos-api-pedro-paulucci#readme"
 }
